@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BA5A1E885624BBD94562B31FEEB7FD6 /* RAMPaperSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF9987B669797BE29EC7D7644B0B551 /* RAMPaperSwitch.swift */; };
+		534A28D1285332632D6DC50F73D9DA35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		57CA47DBF6CBC30DBD8BA873939CE263 /* RAMPaperSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE197219A90482A0D476EB93260810EE /* RAMPaperSwitch-dummy.m */; };
+		72E05C8BDA8B96B13609C9BCC6E48E8B /* Pods-PaperSwitchTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 408391774FFC245102B5AA34BDB1D96F /* Pods-PaperSwitchTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FED025C519EAE65922CADB0172DD40 /* Pods-PaperSwitchTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EABE210B7A6F113C77F3BF47E7A1CFEF /* Pods-PaperSwitchTableView-dummy.m */; };
+		BC5431E44CF50E16E71C21E04CA13E34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E7CAD6D251B9477704B95D50396AF309 /* RAMPaperSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB80646D1738B8E9D18869A62AC92218 /* RAMPaperSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1AF8D75A7F5EC698B9C41F631970940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92952CA42EBCFC1957FFCA8EA9CE43E2;
+			remoteInfo = RAMPaperSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		193F122E8301DC3D968BA2E58473B82D /* RAMPaperSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMPaperSwitch.xcconfig; sourceTree = "<group>"; };
+		1CF0DB09CBC4980541B8C688301C73B7 /* Pods-PaperSwitchTableView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaperSwitchTableView-resources.sh"; sourceTree = "<group>"; };
+		28A83D661809628959686E5E99753BA2 /* Pods_PaperSwitchTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaperSwitchTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF2439ED4AC69CE0E5FE182901F1F03 /* Pods-PaperSwitchTableView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaperSwitchTableView-frameworks.sh"; sourceTree = "<group>"; };
+		408391774FFC245102B5AA34BDB1D96F /* Pods-PaperSwitchTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaperSwitchTableView-umbrella.h"; sourceTree = "<group>"; };
+		428BF03AC359EC1718A9E8E3CD1133F8 /* RAMPaperSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMPaperSwitch-prefix.pch"; sourceTree = "<group>"; };
+		4D8D71BA9BF3D957925D7240E917C073 /* Pods-PaperSwitchTableView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaperSwitchTableView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57D96DAADE6A0D2D98F8C9A36BDA1B01 /* Pods-PaperSwitchTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaperSwitchTableView.release.xcconfig"; sourceTree = "<group>"; };
+		5CF9987B669797BE29EC7D7644B0B551 /* RAMPaperSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMPaperSwitch.swift; path = PaperSwitch/RAMPaperSwitch.swift; sourceTree = "<group>"; };
+		76B7F1671A8D75273A5550F79FF99104 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D96F7E5C8031936DDF203AFF3FEC3C /* Pods-PaperSwitchTableView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaperSwitchTableView-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A852E538BE80105629EF78988059BCC5 /* Pods-PaperSwitchTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PaperSwitchTableView.modulemap"; sourceTree = "<group>"; };
+		AE197219A90482A0D476EB93260810EE /* RAMPaperSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMPaperSwitch-dummy.m"; sourceTree = "<group>"; };
+		BB80646D1738B8E9D18869A62AC92218 /* RAMPaperSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMPaperSwitch-umbrella.h"; sourceTree = "<group>"; };
+		C032618947E328DBBD6AE9AD1A9447E2 /* Pods-PaperSwitchTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaperSwitchTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		C40EC6BD48E67CA2DBAB0E557A47E340 /* RAMPaperSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAMPaperSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99DAEB908FCDA0883B49E45401D878A /* RAMPaperSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RAMPaperSwitch.modulemap; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EABE210B7A6F113C77F3BF47E7A1CFEF /* Pods-PaperSwitchTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaperSwitchTableView-dummy.m"; sourceTree = "<group>"; };
+		F530F4BEA2FDC27945369AA0D00FABAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87B5D5BE41D9B7763487C5A10D4E36FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5431E44CF50E16E71C21E04CA13E34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2E2FFAC8412792D54125E19DC37A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534A28D1285332632D6DC50F73D9DA35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6435EC1A06397D7215ED4BFAB01F7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AABD6CC01A135EB8ECCC7A919C6B32F /* RAMPaperSwitch */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		51D6E4F91504A476143C0EDD89003516 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DAB128EC5F6AF48C4383CA1583DA4 /* Pods-PaperSwitchTableView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2D6435EC1A06397D7215ED4BFAB01F7F /* Pods */,
+				90F4DE9DFE3D32856EF05CC54A26F047 /* Products */,
+				51D6E4F91504A476143C0EDD89003516 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AABD6CC01A135EB8ECCC7A919C6B32F /* RAMPaperSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				5CF9987B669797BE29EC7D7644B0B551 /* RAMPaperSwitch.swift */,
+				F36BADE2C545126CEE2C6096862C1404 /* Support Files */,
+			);
+			path = RAMPaperSwitch;
+			sourceTree = "<group>";
+		};
+		90F4DE9DFE3D32856EF05CC54A26F047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A83D661809628959686E5E99753BA2 /* Pods_PaperSwitchTableView.framework */,
+				C40EC6BD48E67CA2DBAB0E557A47E340 /* RAMPaperSwitch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF7DAB128EC5F6AF48C4383CA1583DA4 /* Pods-PaperSwitchTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F530F4BEA2FDC27945369AA0D00FABAE /* Info.plist */,
+				A852E538BE80105629EF78988059BCC5 /* Pods-PaperSwitchTableView.modulemap */,
+				4D8D71BA9BF3D957925D7240E917C073 /* Pods-PaperSwitchTableView-acknowledgements.markdown */,
+				91D96F7E5C8031936DDF203AFF3FEC3C /* Pods-PaperSwitchTableView-acknowledgements.plist */,
+				EABE210B7A6F113C77F3BF47E7A1CFEF /* Pods-PaperSwitchTableView-dummy.m */,
+				2BF2439ED4AC69CE0E5FE182901F1F03 /* Pods-PaperSwitchTableView-frameworks.sh */,
+				1CF0DB09CBC4980541B8C688301C73B7 /* Pods-PaperSwitchTableView-resources.sh */,
+				408391774FFC245102B5AA34BDB1D96F /* Pods-PaperSwitchTableView-umbrella.h */,
+				C032618947E328DBBD6AE9AD1A9447E2 /* Pods-PaperSwitchTableView.debug.xcconfig */,
+				57D96DAADE6A0D2D98F8C9A36BDA1B01 /* Pods-PaperSwitchTableView.release.xcconfig */,
+			);
+			name = "Pods-PaperSwitchTableView";
+			path = "Target Support Files/Pods-PaperSwitchTableView";
+			sourceTree = "<group>";
+		};
+		F36BADE2C545126CEE2C6096862C1404 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B7F1671A8D75273A5550F79FF99104 /* Info.plist */,
+				C99DAEB908FCDA0883B49E45401D878A /* RAMPaperSwitch.modulemap */,
+				193F122E8301DC3D968BA2E58473B82D /* RAMPaperSwitch.xcconfig */,
+				AE197219A90482A0D476EB93260810EE /* RAMPaperSwitch-dummy.m */,
+				428BF03AC359EC1718A9E8E3CD1133F8 /* RAMPaperSwitch-prefix.pch */,
+				BB80646D1738B8E9D18869A62AC92218 /* RAMPaperSwitch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RAMPaperSwitch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7CB66FE53FCED1E00AD4132CB08E9FE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CAD6D251B9477704B95D50396AF309 /* RAMPaperSwitch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B8A0E74A2B36FA19CC642D2E9E0602 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E05C8BDA8B96B13609C9BCC6E48E8B /* Pods-PaperSwitchTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80F6616C75209659C70E4C4964B8B5F9 /* Pods-PaperSwitchTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72C7BB29C3BB80C9BEB3F5013916834 /* Build configuration list for PBXNativeTarget "Pods-PaperSwitchTableView" */;
+			buildPhases = (
+				E271CF50FBB4EEDA072047CD125B7B13 /* Sources */,
+				BC2E2FFAC8412792D54125E19DC37A64 /* Frameworks */,
+				92B8A0E74A2B36FA19CC642D2E9E0602 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AA77ACBCC38C69B96D6BB98911194E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-PaperSwitchTableView";
+			productName = "Pods-PaperSwitchTableView";
+			productReference = 28A83D661809628959686E5E99753BA2 /* Pods_PaperSwitchTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92952CA42EBCFC1957FFCA8EA9CE43E2 /* RAMPaperSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABF044CBAA2A7DFF85643C12D1B0FCE /* Build configuration list for PBXNativeTarget "RAMPaperSwitch" */;
+			buildPhases = (
+				36DD7C71468D4C6CFAAED07EC01D56F5 /* Sources */,
+				87B5D5BE41D9B7763487C5A10D4E36FF /* Frameworks */,
+				7CB66FE53FCED1E00AD4132CB08E9FE1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMPaperSwitch;
+			productName = RAMPaperSwitch;
+			productReference = C40EC6BD48E67CA2DBAB0E557A47E340 /* RAMPaperSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 90F4DE9DFE3D32856EF05CC54A26F047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80F6616C75209659C70E4C4964B8B5F9 /* Pods-PaperSwitchTableView */,
+				92952CA42EBCFC1957FFCA8EA9CE43E2 /* RAMPaperSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36DD7C71468D4C6CFAAED07EC01D56F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CA47DBF6CBC30DBD8BA873939CE263 /* RAMPaperSwitch-dummy.m in Sources */,
+				2BA5A1E885624BBD94562B31FEEB7FD6 /* RAMPaperSwitch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E271CF50FBB4EEDA072047CD125B7B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FED025C519EAE65922CADB0172DD40 /* Pods-PaperSwitchTableView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AA77ACBCC38C69B96D6BB98911194E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAMPaperSwitch;
+			target = 92952CA42EBCFC1957FFCA8EA9CE43E2 /* RAMPaperSwitch */;
+			targetProxy = E1AF8D75A7F5EC698B9C41F631970940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6814C0A07C8B75C6AF852207B59FDB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193F122E8301DC3D968BA2E58473B82D /* RAMPaperSwitch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMPaperSwitch/RAMPaperSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMPaperSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMPaperSwitch/RAMPaperSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RAMPaperSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		992FA03F571AC2D7E8B448FB7A460FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D96DAADE6A0D2D98F8C9A36BDA1B01 /* Pods-PaperSwitchTableView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PaperSwitchTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaperSwitchTableView/Pods-PaperSwitchTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PaperSwitchTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4BF73E237CBA0DB3970F22D609B3B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C032618947E328DBBD6AE9AD1A9447E2 /* Pods-PaperSwitchTableView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PaperSwitchTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaperSwitchTableView/Pods-PaperSwitchTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PaperSwitchTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D44E54CA86800EEFB08D45CB0FAB594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193F122E8301DC3D968BA2E58473B82D /* RAMPaperSwitch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMPaperSwitch/RAMPaperSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMPaperSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMPaperSwitch/RAMPaperSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RAMPaperSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABF044CBAA2A7DFF85643C12D1B0FCE /* Build configuration list for PBXNativeTarget "RAMPaperSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44E54CA86800EEFB08D45CB0FAB594E /* Debug */,
+				6814C0A07C8B75C6AF852207B59FDB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E72C7BB29C3BB80C9BEB3F5013916834 /* Build configuration list for PBXNativeTarget "Pods-PaperSwitchTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BF73E237CBA0DB3970F22D609B3B7B /* Debug */,
+				992FA03F571AC2D7E8B448FB7A460FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
